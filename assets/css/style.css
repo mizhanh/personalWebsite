@@ -145,14 +145,14 @@ p {
 .stickyFooter {
 	background-color: black;
 	height: 35px;
-	width: 100%;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0px;
 	color: white;
 	font-size: 12px;
 	padding-bottom: 10px;
 	padding-top: 5px;
-	text-align: center;	
+	text-align: center;
+	/*overflow: auto;*/	
 }
 
 #firstCol {
@@ -170,7 +170,9 @@ p {
   #secondCol, #thirdCol {
     padding-left: 22%;
   }
-  
+  .stickyFooter {
+  	visibility: hidden;
+  }
 }
 
 /*Background Page*/
