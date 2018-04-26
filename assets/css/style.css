@@ -63,12 +63,20 @@
     text-align: left;
     padding: 10px;
   }
+	#secondCol, #thirdCol {
+    padding-right: 22%;
+  }
+  .stickyFooter {
+  	visibility: hidden;
+  }
+
+
 }
 
 .navbar-header {
 	height: 120px;
-	padding: 10px;
-	margin-bottom: 0px;
+	/*padding: 10px;*/
+	margin-bottom: 10px;
 	margin-left: 5%;
 }
 
@@ -78,11 +86,9 @@
 }
 
 .navbar-brand {
-	font-size: 50px;
-	font-family: 'Montserrat', sans-serif;
-	padding-top: 10px;
   	padding-left:20px;
-  	margin-top: 8%;
+  	background-color: #DCDCDC;
+  	padding-bottom: 20px;
 
 }
 
@@ -173,6 +179,7 @@ p {
   .stickyFooter {
   	visibility: hidden;
   }
+ 
 }
 
 /*Background Page*/
@@ -216,7 +223,7 @@ p {
 	font-weight:700;
 	text-align:justify;
 	padding:20px;
-	background: url(../img/portfolio-images/cooking.jpg) no-repeat;
+	background: url(../img/portfolio-images/cooking.png) no-repeat;
 	margin-left: 30px;
 	position:relative;
 	border: 8px solid black;
@@ -233,7 +240,7 @@ p {
 	font-weight:700;
 	text-align:justify;
 	padding:20px;
-	background: url(../img/portfolio-images/diner.jpg) no-repeat;
+	background: url(../img/portfolio-images/burger.jpg) no-repeat;
 	margin-left: 30px;
 	position:relative;
 	border: 8px solid black;
@@ -281,7 +288,7 @@ p {
 	font-weight:700;
 	text-align:justify;
 	padding:20px;
-	background: url(../img/portfolio-images/crinklepaper.jpg) no-repeat;
+	background: url(../img/portfolio-images/paper.jpg) no-repeat;
 	margin-left: 30px;
 	position:relative;
 	display: inline-block;
@@ -313,7 +320,7 @@ p {
 	font-weight:700;
 	text-align:justify;
 	padding:20px;
-	background: url(../img/portfolio-images/trivia.jpg) no-repeat;
+	background: url(../img/portfolio-images/quiz.jpg) no-repeat;
 	margin-left: 30px;
 	position:relative;
 	display: inline-block;
