@@ -192,7 +192,7 @@ p {
 #portfolio {
 	background-image: url(../smallBackground.png);
 	background-size: cover;
-	height: 600px;	
+	height: 575px;	
 }
 
 .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive, .projectSix, .projectSeven, .projectEight, .projectNine, .projectTen, .projectEleven, .projectTwelve{
@@ -208,10 +208,10 @@ p {
 	text-align:justify;
 	padding:20px;
 	background: url(../img/portfolio-images/const1.jpg) no-repeat;
-	margin-left: 8%;
 	position:relative;
 	border: 8px solid black;
 	display: inline-block;
+	margin-left: 150px;
 	margin-top:1%;
 }
 
@@ -257,11 +257,11 @@ p {
 	text-align:justify;
 	padding:20px;
 	background: url(../img/portfolio-images/cat.jpg) no-repeat;
-	margin-left: 8%;
+	margin-left: 150px;
 	position:relative;
 	display: inline-block;
 	border: 8px solid black;
-	margin-top:1%;
+	margin-top:2%;
 }	
 
 #txtOverlay5{
@@ -277,7 +277,7 @@ p {
 	position:relative;
 	display: inline-block;
 	border: 8px solid black;
-	margin-top:1%;
+	margin-top:2%;
 }	
 
 #txtOverlay6{
@@ -293,7 +293,7 @@ p {
 	position:relative;
 	display: inline-block;
 	border: 8px solid black;
-	margin-top:1%;
+	margin-top:2%;
 }	
 
 #txtOverlay7{
@@ -305,7 +305,7 @@ p {
 	text-align:justify;
 	padding:20px;
 	background: url(../img/portfolio-images/tech4.jpg) no-repeat;
-	margin-left: 8%;
+	margin-left: 150px;
 	position:relative;
 	display: inline-block;
 	border: 8px solid black;
@@ -320,7 +320,7 @@ p {
 	font-weight:700;
 	text-align:justify;
 	padding:20px;
-	background: url(../img/portfolio-images/quiz.jpg) no-repeat;
+	background: url(../img/portfolio-images/trivia.png) no-repeat;
 	margin-left: 30px;
 	position:relative;
 	display: inline-block;
