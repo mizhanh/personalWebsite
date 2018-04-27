@@ -192,7 +192,7 @@ p {
 #portfolio {
 	background-image: url(../smallBackground.png);
 	background-size: cover;
-	height: 575px;	
+	height: 550px;	
 }
 
 .projectOne, .projectTwo, .projectThree, .projectFour, .projectFive, .projectSix, .projectSeven, .projectEight, .projectNine, .projectTen, .projectEleven, .projectTwelve{
